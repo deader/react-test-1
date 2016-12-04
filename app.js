@@ -1,15 +1,7 @@
-function Hero(props) {
-    return (
-        React.createElement('div', { className: 'container' }, 
-            React.createElement('img', { src: props.imageUrl }),
-            React.createElement('h1', null, props.title),
-            React.createElement('p', null, props.subtitle)
-        )
-    );
-}
+var image = React.createElement('img', { src: 'https://facebook.github.io/react/img/logo.svg' });
+var title = React.createElement('h1', null, 'React');
+var subtitle = React.createElement('p', null, 'Библиотека для создания пользовательский интерфейсов');
+var container = React.createElement('div', { className: 'container' }, image, title, subtitle);
 
-var hero = React.createElement(Hero, { title: 'React',
-                                       subtitle: 'Библиотека для создания пользовательских интерфейсов',
-                                       imageUrl: 'https://facebook.github.io/react/img/logo.svg' });
+ReactDOM.render(container, document.getElementById('root'));
 
-ReactDOM.render(hero, document.getElementById('root'));

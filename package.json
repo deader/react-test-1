@@ -1,0 +1,26 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Изучение react.js",
+  "main": "app.js",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deader/react-init.git"
+  },
+  "keywords": [
+    "react.js"
+  ],
+  "author": "deadder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deader/react-init/issues"
+  },
+  "homepage": "https://github.com/deader/react-init#readme"
+}

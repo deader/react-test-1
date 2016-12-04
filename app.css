@@ -31,6 +31,8 @@ img {
     font-size: 2rem;
     transform: translateY(-50%);
     transition: all .2s;
+    -webkit-transform: translateY(-50%);
+    -webkit-transition: all .2s;
 }
 
 .image-counter:hover .count {
